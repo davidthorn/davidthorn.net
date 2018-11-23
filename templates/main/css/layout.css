@@ -1,0 +1,78 @@
+@import url('/templates/main/css/main_navbar.css');
+@import url('/templates/main/css/tut_navbar.css');
+@import url('/templates/main/css/mainbody_layout.css');
+@import url('/templates/main/css/header.css');
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Tahoma" , "Arial" , "Verdana";
+    color: #444444;
+}
+
+a img
+{
+    border: none;
+}
+
+.wrapper
+{
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    margin: 5px;
+    border: 1px solid #a1a1a1;
+    border-radius: 10px;
+}
+
+.header
+{
+    
+    height: auto;
+    width: auto;
+    overflow: hidden;
+    background-image: url('/templates/main/images/header_bg_grad.jpg');
+    background-repeat: repeat-x;   
+}
+
+.navbar
+{
+    height: 25px;
+    width: auto;
+    overflow: hidden;
+    background-image: url('/templates/main/images/main_navbar_bg_grad.jpg');
+    background-repeat: repeat-x;   
+    border-top: 1px solid #a1a1a1;
+    border-bottom: 1px solid #a1a1a1;
+}
+
+.body_wrapper
+{
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    margin: 10px 0 0 5px;
+    background: #FBFDFF;
+}
+
+.left_box
+{
+    float: left;
+    height: auto;
+    width: 20%;
+    border: 1px solid #a1a1a1;
+    margin: 5px 5px 10px 5px;
+    border-radius: 10px;
+    background: #ffffff;
+}
+
+.mainbody
+{
+    float: right;
+    width: 77%;
+    overflow: hidden;
+    margin: 5px 10px 10px 0px;
+}
+
+
+

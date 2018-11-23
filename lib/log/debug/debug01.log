@@ -1,0 +1,22 @@
+Msg: Setting POST task test | debug01.log
+Msg: Controller controller file found /var/www/vhosts/davidthorn.net/httpdocs/content/home/controllers/home.controller.php | debug01.log
+Msg: home.php nothing being done,  | debug01.log
+Msg: Instantiating Controller Object [ HomeControllerHome ] | debug01.log
+Msg: Controller [ HomeControllerHome ] constructor fired | debug01.log
+Msg: Parent Controller Constructor fired | debug01.log
+Msg: Instantiating Model [ HomeModelHome ] | debug01.log
+Msg: Model [ HomeModelHome ] constructor called  | debug01.log
+Msg: Parent Model Constructor fired | debug01.log
+Msg: Instantiating View [ HomeViewHome ] | debug01.log
+Msg: Setting Default Layout in View Constructor | debug01.log
+Msg: SetLayout - modifying from default layout to $tmpl | debug01.log
+Msg: Checking if all MVC Objects are set | debug01.log
+Msg: Executing Controller->execute | debug01.log
+Msg: Controller calling execute | debug01.log
+Msg: Controller call_task has been fired | debug01.log
+Msg: Controller check if redirect is required | debug01.log
+Msg: ContentLoader [ render ] ViewObect->display being called | debug01.log
+Msg: Collecting Model | debug01.log
+Msg: ContentLoader returning Model | debug01.log
+Msg: View Parent [ get ] called $name = List | debug01.log
+Msg: Model [ HomeModelHome ] method getList fired | debug01.log

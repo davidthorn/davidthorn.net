@@ -1,0 +1,97 @@
+.adminform_wrapper
+{
+    margin: 20px 0 0 0px;
+    border: 1px solid #a1a1a1;
+    border-radius: 10px;
+    position: relative;
+    height: auto;
+    overflow: hidden;
+    background: #ffffff;
+}
+
+.adminInner
+{
+    margin: 10px;
+    border: 1px solid #e1e1e1;
+    background: #FBFDFF;
+}
+
+ul.adminForm
+{
+    list-style-type: none;
+    margin: 20px;
+    background: #ffffff;
+}
+
+ul.adminForm li
+{
+    height: auto;
+    margin: 10px 0 20px 0;
+    overflow: hidden;
+    display: block;
+}
+
+ul.adminForm li label
+{
+    float: left;
+    width: 150px;
+    height: 20px;
+    line-height: 17px;
+    font-size: 13px;
+    color: #444444;
+    font-weight: bold;
+}
+
+ul.adminForm li input.inputbox
+{
+    width: 200px;
+    float: left;
+    height: 20px;
+    color: #555555;
+    border: 1px solid #a1a1a1;
+}
+
+ul.adminForm li select.selectbox
+{
+    width: 200px;
+    float: left;
+    height: 20px;
+    color: #555555;
+    border: 1px solid #a1a1a1;
+    background: #ffffff;
+}
+
+.adminform_wrapper .section
+{
+    margin: 10px;
+    border: 1px solid #e1e1e1;
+    
+    background: #FFFFFC;
+    border-radius: 10px;
+}
+
+.adminform_wrapper .section h3
+{
+    margin: 0 0 0 0px;
+    color: #555555;
+    font-weight: bold;
+    border-bottom: 1px solid #e1e1e1;
+    text-indent: 20px;
+    height: 40px;
+    line-height: 37px;
+}
+
+span.drop_arrows
+{
+    float: right;
+    height: 24px;
+    width: 24px;
+    background-image: url('/images/icons/toolbar/down_arrow-24.jpeg');
+    background-repeat: no-repeat;
+    margin: 8px 10px 8px 0;
+    cursor: pointer;
+}
+
+
+    
+

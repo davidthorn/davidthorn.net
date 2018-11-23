@@ -1,0 +1,32 @@
+ul.main_navbar
+{
+    list-style-type: none;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+}
+
+ul.main_navbar li
+{
+    float: left;
+    font-size: 14px;
+    line-height: 22px;
+    text-decoration: none;
+}
+
+ul.main_navbar li a
+{
+    float: left;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: #555555;
+    padding: 0 25px 0 25px;
+}
+
+ul.main_navbar li a:hover
+{
+    text-decoration: underline;
+    color: #333333;
+}

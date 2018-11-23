@@ -1,0 +1,124 @@
+ul.toolbar_wrapper
+{
+    float: right;
+    height: auto;
+    width: auto;
+    list-style-type: none;
+    margin: 5px 0 0 0;
+}
+
+ul.toolbar_wrapper li.toolbar_button
+{
+    float: left;
+    height: 60px;
+    width: auto;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #f1f1f1;
+    margin: 0 2px 0 2px;
+    box-shadow: 0px 0px 10px #e1e1e1;
+    border-radius: 5px;
+    padding: 0 5px 0 5px;
+}
+
+ul.toolbar_wrapper li.toolbar_button:hover
+{
+    box-shadow: 0px 0px 10px #cccccc; 
+}
+
+ul.toolbar_wrapper li.toolbar_button div.toolbar_img
+{
+    height: 35px;
+    width: 50px;
+    line-height: 17px;
+    color: #3366CC;
+    text-align: center;
+    font-size: 13px;
+    margin: 2px auto 0 auto;
+}
+
+ul.toolbar_wrapper li.toolbar_button div.toolbar_text
+{
+    height: 20px;
+    width: auto;
+    line-height: 17px;
+    color: #3366CC;
+    text-align: center;
+    font-size: 11px;
+}
+
+ul.toolbar_wrapper li.toolbar_button div.icon-32-save
+{
+    background-image: url('/images/icons/toolbar/icon-32-save.png');
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    background-position: center 0px;
+}
+
+ul.toolbar_wrapper li.toolbar_button:hover div.icon-32-save
+{
+    background-image: url('/images/icons/toolbar/icon-32-save.png');
+    background-position: center -31px;
+    background-repeat: no-repeat;
+   
+}
+
+ul.toolbar_wrapper li.toolbar_button div.icon-32-apply
+{
+    background-image: url('/images/icons/toolbar/icon-32-apply.png');
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    background-position: center 0px;
+}
+
+ul.toolbar_wrapper li.toolbar_button:hover div.icon-32-apply
+{
+    background-image: url('/images/icons/toolbar/icon-32-apply.png');
+    background-position: center -32px;
+    background-repeat: no-repeat;
+    
+}
+
+ul.toolbar_wrapper li.toolbar_button div.icon-32-new
+{
+    background-image: url('/images/icons/toolbar/icon-32-new.png');
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    background-position: center 0px;
+}
+
+ul.toolbar_wrapper li.toolbar_button div.icon-32-close
+{
+    background-image: url('/images/icons/toolbar/icon-32-close.png');
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    background-position: center 0px;
+    margin: 2px 0 0 1px;
+}
+
+ul.toolbar_wrapper li.toolbar_button:hover div.icon-32-close
+{
+    background-image: url('/images/icons/toolbar/icon-32-close.png');
+    background-position: center -32px;
+    background-repeat: no-repeat;
+    
+}
+
+ul.toolbar_wrapper li.toolbar_button div.icon-32-delete
+{
+    background-image: url('/images/icons/toolbar/icon-32-delete.png');
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    background-position: center 2px;
+    margin: 2px 0 0 1px;
+}
+
+ul.toolbar_wrapper li.toolbar_button:hover div.icon-32-delete
+{
+    background-image: url('/images/icons/toolbar/icon-32-delete.png');
+    background-position: center -30px;
+    background-repeat: no-repeat;
+    
+}
+
+

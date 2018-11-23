@@ -1,0 +1,144 @@
+
+table.adminTable
+{
+    
+    border-spacing: 0;
+    border-collapse: collapse;
+    
+    border: 1px solid #e1e1e1;
+    margin: 10px;
+    border-radius: 10px;
+    
+}
+
+table.adminTable td
+{
+    border: 1px solid #a1a1a1;
+}
+
+table.adminTable thead
+{
+    height: 30px;
+    margin: 0 0 10px 0;
+    background: #e1e1e1;
+    font-size: 12px;
+  
+}
+
+table.adminTable thead
+{
+    text-align: center;
+}
+
+.indent_left_10
+{
+    text-indent: 10px;
+}
+
+table.adminTable tbody
+{
+    padding: 10px 0 0 0;
+    font-size: 12px;
+}
+
+table.adminTable tbody tr
+{
+    height: 30px;
+    
+} 
+
+table.adminTable tbody tr:hover
+{
+    background: #ECECEC;
+}
+
+table.adminTable tbody tr td a
+{
+    float: left;
+    width: auto;
+    height: 30px;
+    text-indent: 10px;
+    line-height: 27px;
+    margin: 0 0 0 0px;
+    color: #4775A3;
+    text-decoration: none;
+}
+
+table.adminTable tbody tr td a:hover
+{
+    text-decoration: underline;
+}
+
+table.adminTable tbody tr td span.dot-sep
+{
+    color: #a1a1a1;
+    float: left;
+    width: auto;
+    height: 30px;
+    padding: 0 10px 0 20px;
+    line-height: 26px;
+    
+}
+
+.ordering_box
+{
+    width: 45px;
+    height: 18px;
+    cursor: pointer;
+}
+
+.ordering_box span.no_arrow
+{
+    width: 16px;
+    height: 16px;
+    float: left;
+    margin: 0px 5px 0 0;
+}
+
+.ordering_box span.up_arrow
+{
+    width: 16px;
+    height: 16px;
+    float: left;
+    margin: 0px 5px 0 0;
+    background-image: url('/images/up_16.jpg');
+    background-repeat: no-repeat;
+}
+
+.ordering_box span.down_arrow
+{
+    width: 16px;
+    height: 16px;
+    float: left;
+    margin: 0px 0 0 5px;
+    background-image: url('/images/down_16.jpg');
+    background-repeat: no-repeat;
+}
+
+
+
+.status_box
+{
+    width: 16px;
+    height: 18px;
+    cursor: pointer;
+}
+.status_box span.status_ok
+{
+    width: 16px;
+    height: 16px;
+    float: left;
+    margin: 0px 0px 0 0;
+    background-image: url('/images/status_ok_16.jpg');
+    background-repeat: no-repeat;
+}
+
+.status_box span.status_off
+{
+    width: 16px;
+    height: 16px;
+    float: left;
+    margin: 0px 0 0 0px;
+    background-image: url('/images/status_off_16.png');
+    background-repeat: no-repeat;
+}

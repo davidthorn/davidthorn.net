@@ -1,0 +1,73 @@
+
+.logobox
+{
+    float: left;
+    height: auto;
+    width: auto;
+    overflow: hidden;
+}
+
+.pic_me_box
+{
+    float: left;
+    height: 90px;
+    width: 120px;
+    margin: 5px;
+    border: 1px solid #a1a1a1;
+    border-radius: 10px;
+    background-image: url('/templates/main/images/pic_davidthorn_profile.jpg');
+    background-repeat: no-repeat;
+}
+
+.pic_me_box a
+{
+    float: left;
+    height: 100%;
+    width: 100%;
+}
+
+.logobox ul
+{
+    list-style-type: none;
+    margin: 0px;
+    
+}
+
+.header_name_box
+{
+    width: 300px;
+    height: auto;
+    float: left;
+}
+
+.header_name_box ul
+{
+    list-style-type: none;
+    width: auto;
+    height: auto;
+    margin: 10px 0 0 20px;
+}
+
+.header_name_box ul li
+{
+    display: block;
+    height: auto;
+    
+}
+
+h3.header_mainname_link
+{
+    height: 30px;
+    line-height: 27px;
+    font-weight: normal;
+    font-size: 23px;
+}
+
+.header_name_box ul li.header_text
+{
+    height: 20px;
+    line-height: 18px;
+    margin: 5px 0 0 0 ;
+}
+
+

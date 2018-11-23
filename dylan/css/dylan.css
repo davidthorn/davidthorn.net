@@ -1,0 +1,71 @@
+.bigbox
+{
+width: 600px;
+height: 150px;
+border: 1px solid #a1a1a1;
+
+}
+
+.bigbox .colors
+{
+list-style-type: none;
+width: 100%;
+height: 150px;
+margin: 0px;
+padding: 0px;
+
+}
+
+.bigbox .colors li
+{
+float: left;
+width: 150px;
+height: 150px;
+}
+
+
+.bigbox .colors li.red
+{
+background: red;
+}
+
+.bigbox .colors li.green
+{
+background: green;
+}
+
+.bigbox .colors li.blue
+{
+background: blue;
+}
+
+.bigbox .colors li.black
+{
+background: black;
+}
+
+.bigbox .colors li.yellow
+{
+background: yellow;
+}
+
+.bigbox .colors li.orange
+{
+background: orange;
+}
+
+
+.bigbox .colors li.purple
+{
+background: purple;
+}
+
+.bigbox .colors li.gray
+{
+background: gray;
+}
+
+.bigbox .colors li.brown
+{
+background: brown;
+}
